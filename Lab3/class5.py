@@ -8,7 +8,7 @@ class Bank:
     def withdraw(self, take_off):
         self.take_off = take_off
         limit = 300000
-        if take_off > limit:
+        if take_off > limit:  # осы жерде try except колданып более удобно кылып жасауга болар ед
             print("Вы не можете снять такую сумму")
         else:
             print("Done")
