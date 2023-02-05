@@ -108,8 +108,8 @@ def average_by_category(category):
             score += movie["imdb"]
             count+=1
     return  score / count
-print(above5_5("Exam"))
+print(above5_5("Detective"))
 print(above5_5_movies())
-print(category("Romance"))
-print(average_by_name(["Exam", "We Two"]))
-print(average_by_category("Romance"))
+print(category("Suspense"))
+print(average_by_name(["What is the name", "Ringing Crime"]))
+print(average_by_category("Thriller"))
