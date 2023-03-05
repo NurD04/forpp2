@@ -5,3 +5,4 @@ if os.path.exists(path):
     print("Directory name:", os.path.basename(path))
 else:
     print("Path does not exist")
+

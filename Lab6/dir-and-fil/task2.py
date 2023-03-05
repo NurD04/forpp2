@@ -16,3 +16,4 @@ if os.path.exists(path):
         print(f"{path} не исполняемый")
 else:
     print(f"{path} не существует")
+
