@@ -5,7 +5,7 @@ import random
 import psycopg2
 
 # Connect to PostgreSQL database
-conn = psycopg2.connect(host="localhost", dbname="Forlab", user="postgres", password="0717", port=5432)
+conn = psycopg2.connect(host="localhost", dbname="Forlab", user="postgres", password="", port=5432)
 cur = conn.cursor()
 
 # Create user and user_score tables if they don't exist,запрос
