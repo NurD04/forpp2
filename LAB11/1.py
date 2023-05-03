@@ -4,7 +4,7 @@ import re
 DB_HOST = "localhost"
 DB_PORT = 5432
 DB_USER = "postgres"
-DB_PASSWORD = "0717"
+DB_PASSWORD = ""
 
 conn = psycopg2.connect(
     host=DB_HOST,
